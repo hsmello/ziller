@@ -10,7 +10,7 @@ function ScrollDownListener() {
 
     const handleScroll = () => {
          var scrolled = window.scrollY;
-            if (scrolled > 250) {
+            if (scrolled > 100) {
                 setToolbarCSS("toolbar_scrolled")
                 setToolbarItemsCSS("toolbar_items_scrolled")
                 setButtonCSS("button_scrolled")
