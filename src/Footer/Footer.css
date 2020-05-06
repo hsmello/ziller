@@ -1,0 +1,51 @@
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.logo_ziller {
+    padding-top: 20px;
+    height: 80px;
+}
+
+.copyright {
+    text-align: center;
+    color: grey;
+}
+
+.socialMediaTags {
+    /* background-image: linear-gradient(rgb(60, 60, 66), black) ; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 15px 0px;
+    width: 100%;
+    border-color: black;
+    border-top-style: solid;
+}
+
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+a.social:hover {
+    transform: translateY(-3px); 
+}
+
+a.instagram {
+    color: white;
+}
+
+a.facebook {
+    color: white;
+}
+
+a.soundcloud {
+    color: white;
+}
+
+a.spotify {
+    color: white;
+}

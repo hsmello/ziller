@@ -1,0 +1,15 @@
+.music_page {
+    background-color: black;
+}
+
+.music_page_title {
+    color: white;
+    letter-spacing: 2px;    
+    font-weight: bolder;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.first_picture {
+    width: 100%;
+}
