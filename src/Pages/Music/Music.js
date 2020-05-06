@@ -1,12 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Music.css';
 import MusicArray from './MusicArray';
 import SoundCloudMusic from './SoundCloudList'
 import AOS from 'aos';
 import 'aos/dist/aos'
+import WindowDimensions from '../../Hook/WindowDimensions'
 
 
 function Music() {
+
+    const { height, width } = WindowDimensions();
+    const [soundCloudWidth, setSoundCloudWidth] = useState('50%')
+    
+    useEffect(() => {
+        if (width < 769) {
+            setSoundCloudWidth('70%')
+        } else {
+            setSoundCloudWidth('50%')
+        }
+    }, [width])
+
 
     AOS.init({
         duration: 4000,
@@ -24,6 +37,7 @@ function Music() {
                         <SoundCloudMusic
                             {...m}
                             key={m.trackTitle}
+                            width={soundCloudWidth}
                         />
                     );
                 })}

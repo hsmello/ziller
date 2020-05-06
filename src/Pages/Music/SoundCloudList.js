@@ -3,7 +3,7 @@ import React from 'react';
 function SoundCloudMusic(props) {
     return (
         <div>
-            <iframe width="50%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src={props.apiLink}></iframe>
+            <iframe width={props.width} height="166" scrolling="no" frameBorder="no" allow="autoplay" src={props.apiLink}></iframe>
             <div
                 style={{ paddingBottom: "30px", fontSize: "10px", color: "#cccccc", lineBreak: "anywhere", wordBreak: "normal", overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis", fontFamily: "Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif", fontWeight: "100" }}
             >
