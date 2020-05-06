@@ -1,5 +1,4 @@
 import React from 'react';
-import './Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faSpotify,
@@ -8,12 +7,15 @@ import {
     faSoundcloud
 } from '@fortawesome/free-brands-svg-icons';
 import LogoZiller from '../Images/logo_ziller_white_nullbackground.png';
+import './Footer.css'
 
 
 function Footer() {
     return (
-        <div className="footer">
-            <img className="logo_ziller" src={LogoZiller} alt="" />
+        <div className="testingbackgound" >
+            <div className="logo_background">
+                <img className="logo_ziller" src={LogoZiller} alt="" />
+            </div>
             <div className="socialMediaTags">
                 <a
                     className="instagram social"
