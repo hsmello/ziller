@@ -1,0 +1,35 @@
+.cards_disposal {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    /* margin-top: 150px; */
+
+}
+
+.individual_card {
+    width: 30%;
+    z-index: 0;
+}
+
+.slider {
+    z-index: 0;
+}
+
+@media (max-width: 1200px) {
+    .cards_disposal {
+        /* margin-top: 100px; */
+        width: 100%;
+        display: block;
+        
+    }
+    .individual_card {
+        width: 100%;
+        padding: 10px 0px;
+        align-items: center;
+        justify-content: center;
+    }
+}

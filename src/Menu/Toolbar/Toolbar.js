@@ -25,6 +25,7 @@ function Toolbar(props) {
                 <div className={toolbarItemsCSS}>
                     <ul>
                         <li><a href="/music">MUSIC</a></li>
+                        <li><a href="/shop">SHOP</a></li>
                         <li><a href="/contact">CONTACT</a></li>
                     </ul>
                 </div>

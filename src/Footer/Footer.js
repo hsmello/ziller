@@ -40,7 +40,7 @@ function Footer() {
                 </a>
                 <a
                     className="spotify social"
-                    href="http://www.youtube.com.br"
+                    href="https://open.spotify.com/show/4vnDWvmM9rufCgzeHj2khd"
                     target="_blank"
                 >
                     <FontAwesomeIcon icon={faSpotify} size="2x" />
