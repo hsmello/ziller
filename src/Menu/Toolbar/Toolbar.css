@@ -49,11 +49,13 @@
     letter-spacing: 2px;
     justify-content: center;
     display: block;
+    transition: 0.3s;
 }
 
 .toolbar_items a:hover,
 .toolbar_items a:active {
     color: rgb(168, 168, 168);
+    transition: 0.3s;
 }
 
 

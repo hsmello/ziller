@@ -1,6 +1,13 @@
 export default
   [
     {
+      trackTitle: "NARNIA FEELINGS SET" ,
+      apiLink:
+      "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/843186133&color=%232323d6&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+      redirectTrackLink: "https://soundcloud.com/rafael-ziller/narnia-feelings-set" 
+    },
+
+    {
       trackTitle: "Quarantine Set 3.0",
       apiLink:
         "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/812969923&color=%232323d6&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
@@ -29,7 +36,3 @@ export default
 
 
   ]
-
-
-
-    

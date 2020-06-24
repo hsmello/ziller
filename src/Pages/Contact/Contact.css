@@ -1,28 +1,76 @@
 
 .first_grid {
-    display: block;
+    display: flex;
     align-items: center;
-    justify-content: center;   
-    background-color: tomato; 
     color: white;
-    padding-bottom: 36%;
-    padding-top: 100px;
+    height: 650px;
+    margin: 200px 0px 50px;
+    position: relative;
+    
 }
 
+.contact_pic {
+    height: 650px;
+    display: inline-block;
+    position: relative;
+}
+.contact_pic img {
+    height: 650px;
+    opacity: 0.4;
+    transition: 0.5s;
+}
+.contact_pic img:hover {
+    transition: 0.5s;
+    opacity: 0.8;
+}
+.contact_pic img:hover .contact_pic_text {
+    background-color: rgb(218, 78, 53);
+}
+.contact_pic_text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 15%;
+    opacity: 1;
+    text-align: center;
+    width: 60%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+.contact_text {
+    background-color: rgb(252, 116, 92);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
 .contact_title {
     letter-spacing: 5px;
     font-size: 30px;
     font-weight: bold;   
-    padding-bottom: 35px; 
+    padding-top: 70px; 
+    padding-bottom: 45px;
 }
 
 .contact_body {
     /* padding: 20px 50px; */
     letter-spacing: 2px;
-    width: 25%;
-    margin: auto;
+    width: 80%;
+    margin: 0px auto;
 }
-
+.contact_body_text {
+    width: 100%;
+    margin: auto;
+    line-height: 200%;
+    font-size: 20px;
+}
+.contact_tags {
+    margin: 80px auto 0px;
+    width: 50%;
+}
 .contact_email {
     text-align: left;
     display: flex;
@@ -45,7 +93,35 @@
 }
 
 @media (max-width: 779px) {
+    .first_grid {
+        display: inline-block;
+        height: auto;
+        margin-top: 100px;
+    }
+    .contact_pic {
+        height: auto;
+    }
+    .contact_pic img{
+        width: 100%;
+        height: auto;
+    }
+
+    .contact_text {
+        padding-bottom: 50px;
+    }
     .contact_body {
-        width: 50%;
+        width: 95%;
+    }
+    .contact_body_text {
+        font-size: 18px;
+    }
+    .contact_tags {
+        width: 100%;
+    }
+    .contact_email, .contat_phone {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
     }
 }
