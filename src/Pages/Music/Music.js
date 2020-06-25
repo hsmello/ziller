@@ -14,7 +14,7 @@ function Music() {
     
     useEffect(() => {
         if (width < 769) {
-            setSoundCloudWidth('70%')
+            setSoundCloudWidth('90%')
         } else {
             setSoundCloudWidth('50%')
         }

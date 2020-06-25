@@ -2,7 +2,7 @@ import React from 'react';
 import './Contact.css';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
-import ContactPic from '../../Images/contactPic.jpg'
+import ContactPic from '../../Images/contactPic.png'
 
 function Contact() {
 
@@ -35,13 +35,13 @@ function Contact() {
 
                             <div className="contact_email">
                                 <MailOutlineIcon className="email_icon" />
-                            rafaelziller@gmail.com
+                                zillerrc@gmail.com
 
                             </div>
                             <br />
-                            <div className="contat_phone">
+                            <div className="contact_phone">
                                 <PhoneAndroidIcon className="phone_icon" />
-                            +351 999 999 999
+                                +351 999 999 999
 
                             </div>
                         </div>

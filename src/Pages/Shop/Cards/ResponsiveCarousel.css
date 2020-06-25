@@ -1,0 +1,50 @@
+.carousel_wrapper {
+    height: 500px;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.Carousel {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    height: 450px;
+    width: 300px;
+    text-align: center;
+    padding: 10px 10px 0px;
+    margin: 0px auto;
+}
+
+.carousel_title {
+    padding: 50px 0px 20px;
+    font-size: 30px;
+}
+
+.carouse_img {
+    height: 250px;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+
+.card_text {
+    margin: auto;
+    padding-top: 10px;
+    font-size: 18px;
+    color: grey;
+}
+
+.prices_cat {
+    padding: 5px 0px;
+}
+
+.slick-slide {
+    display: none;
+}
+
+.slick-next {
+    right: 10px;
+}
+.slick-prev {
+    left: 10px;
+    z-index: 100;
+}

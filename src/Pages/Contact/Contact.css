@@ -16,12 +16,12 @@
 }
 .contact_pic img {
     height: 650px;
-    opacity: 0.4;
+    opacity: 0.7;
     transition: 0.5s;
 }
 .contact_pic img:hover {
     transition: 0.5s;
-    opacity: 0.8;
+    opacity: 1;
 }
 .contact_pic img:hover .contact_pic_text {
     background-color: rgb(218, 78, 53);
@@ -71,17 +71,11 @@
     margin: 80px auto 0px;
     width: 50%;
 }
-.contact_email {
-    text-align: left;
-    display: flex;
-    vertical-align: middle;
- 
-}
 
-.contat_phone {
-    text-align: left;
+.contact_email, .contact_phone {
     display: flex;
-    /* vertical-align: middle; */
+    align-items: center;
+    justify-content: center;
 }
 
 .email_icon {
@@ -117,11 +111,5 @@
     }
     .contact_tags {
         width: 100%;
-    }
-    .contact_email, .contat_phone {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
     }
 }
