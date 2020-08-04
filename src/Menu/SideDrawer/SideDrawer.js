@@ -1,9 +1,10 @@
 import React from 'react';
 import './SideDrawer.css';
-import ScrollDownListener from '../ScrollDownListener';
+// import ScrollDownListener from '../ScrollDownListener';
+import { Link } from 'react-router-dom';
 
 function SideDrawer(props) {
-    
+
 
 
     let drawerClasses = 'side_Drawer';
@@ -12,14 +13,14 @@ function SideDrawer(props) {
     }
 
     return (
-    <nav className={drawerClasses} >
-        <h2 className="menu_title">MENU</h2>
-        <ul> 
-            <li><a href="/music">MUSIC</a></li>
-            <li><a href="/shop">SHOP</a></li>
-            <li><a href="/contact">CONTACT</a></li>
-        </ul>
-    </nav>
+        <nav className={drawerClasses} >
+            <h2 className="menu_title">MENU</h2>
+            <ul>
+                <li><Link to='/music'>MUSIC</Link></li>
+                <li><Link to="/shop">SHOP</Link></li>
+                <li><Link to="/contact">CONTACT</Link></li>
+            </ul>
+        </nav>
     );
 };
 

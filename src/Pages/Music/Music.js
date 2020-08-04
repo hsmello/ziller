@@ -27,7 +27,7 @@ function Music() {
 
     return (
         <div className="music_page">
-            <img className="first_picture" src={require("../../Images/cdj2.png")} alt="" />
+            <img className="music_first_picture" src={require("../../Images/cdj2.png")} alt="" />
             <div className="music_page_title">
                 WHAT'S NEW?
             </div>

@@ -1,21 +1,14 @@
 .testingbackgound {
-    background-color: black;
     color: white;
-}
-
-.logo_background {
-    background-color: black;
 }
 
 .logo_ziller {
     padding-top: 20px;
     height: 80px;
-    background-color: black;
 }
 
 .copyright {
     text-align: center;
-    background-color: black;
     color: grey;
 }
 
@@ -26,8 +19,7 @@
     justify-content: center;
     padding: 15px 0px;
     width: 100%;
-    background-color: black;
-    border-top-style: solid;
+    /* border-top-style: solid; */
 }
 
 a.social {

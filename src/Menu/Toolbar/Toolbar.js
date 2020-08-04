@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Toolbar.css';
 import DrawerButton from '../SideDrawer/DrawerButton';
 import ScrollDownListener from '../ScrollDownListener.js';
+import { Link } from 'react-router-dom';
 
 function Toolbar(props) {
 
@@ -24,9 +25,9 @@ function Toolbar(props) {
                 <div className='topMenuSpace' />
                 <div className={toolbarItemsCSS}>
                     <ul>
-                        <li><a href="/music">MUSIC</a></li>
-                        <li><a href="/shop">SHOP</a></li>
-                        <li><a href="/contact">CONTACT</a></li>
+                        <li><Link to='/music'>MUSIC</Link></li>
+                        <li><Link to="/shop">SHOP</Link></li>
+                        <li><Link to="/contact">CONTACT</Link></li>
                     </ul>
                 </div>
             </nav>

@@ -17,15 +17,12 @@ function App() {
       <div className="content-wrap">
       <ResponsiveMenu />
       
-
         <Route exact path="/" component={Home} />  
         <Route exact path="/contact" component={Contact} />  
         <Route exact path="/music" component={Music} />  
         
         <Route exact path="/shop" component={Shop} />  
-
-
-
+        
        </div>
         <Footer />
      
