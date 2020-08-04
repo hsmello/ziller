@@ -10,6 +10,7 @@ function Home() {
     useEffect(() => {
         AOS.init({
             duration: 2000,
+            once: true
         });
         gsap.fromTo('.first_picture_reveal', 1, { x: '0%', display: 'block'}, { x: '100%', display: 'none'})
         // gsap.to('.first_picture_reveal', 1, { x: '100%' });
